@@ -6,4 +6,5 @@ def calc(_num1, _num2):
     return [sum, difference, multiply, divide]
 
 list = calc(10, 20)
-print (list)
+
+print (sum(list))
