@@ -4,3 +4,5 @@ def divisors(_num):
         if _num % i == 0:
           div_list.append(i)
     return div_list
+
+print(divisors(76))
