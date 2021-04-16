@@ -1,2 +1,9 @@
+import random
+
 def password(_num):
-    pass
+    password = ""
+    for _ in range(_num):
+        password += (chr(random.randint(48, 122)))
+    return password
+
+
