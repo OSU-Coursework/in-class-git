@@ -6,4 +6,4 @@ def password(_num):
         password += (chr(random.randint(48, 122)))
     return password
 
-
+print(password(15))
